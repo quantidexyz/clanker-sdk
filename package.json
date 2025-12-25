@@ -3,16 +3,16 @@
   "version": "4.1.23",
   "description": "SDK for deploying tokens using Clanker",
   "type": "module",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
   "exports": {
-    ".": "./src/index.ts",
-    "./cli": "./src/cli/cli.ts",
-    "./v3": "./src/v3/index.ts",
-    "./v4": "./src/v4/index.ts",
-    "./v4/extensions": "./src/v4/extensions/index.ts"
+    ".": "./dist/index.js",
+    "./cli": "./dist/cli/cli.js",
+    "./v3": "./dist/v3/index.js",
+    "./v4": "./dist/v4/index.js",
+    "./v4/extensions": "./dist/v4/extensions/index.js"
   },
   "bin": {
-    "clanker-sdk": "./src/cli/cli.ts"
+    "clanker-sdk": "./dist/cli/cli.js"
   },
   "files": [
     "dist",
