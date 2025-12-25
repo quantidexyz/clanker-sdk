@@ -61,5 +61,8 @@
   },
   "peerDependencies": {
     "viem": "^2.7.9"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.0.0"
   }
 }
